@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper {
+  width: 1000px;
+}
+
+.wrapperHash {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+}
+
+@media screen and (max-width: 533px) {
+  .wrapper {
+    max-width: 1000px;
+  }
+}
+
+.wrapperHash > button {
+  margin-top: 10px;
+}
+
+.wrapperHash > input {
+  height: 20px;
+  margin-top: 20px;
+}

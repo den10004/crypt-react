@@ -1,0 +1,23 @@
+.listSites {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.listSites > button {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.frame {
+  width: 100%;
+  height: 500px;
+}
+
+.customButton {
+  color: black;
+  cursor: pointer;
+}
+
+.active {
+  color: red;
+}

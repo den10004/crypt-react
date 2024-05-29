@@ -1,0 +1,22 @@
+[
+  {
+    "id": "0",
+    "title": "React",
+    "link": "https://react.dev/"
+  },
+  {
+    "id": "1",
+    "title": "Vue",
+    "link": "https://vuejs.org/"
+  },
+  {
+    "id": "2",
+    "title": "Angular",
+    "link": "https://angular.dev/"
+  },
+  {
+    "id": "3",
+    "title": "JS",
+    "link": "https://learn.javascript.ru/"
+  }
+]
