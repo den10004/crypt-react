@@ -11,7 +11,7 @@ function ListSites() {
   };
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div className="block">
       <h2>Список сайтов</h2>
       <div className="listSites">
         <LiGroup
@@ -33,7 +33,7 @@ function ListSites() {
       {show === "revert.finance" && (
         <Iframe url="https://revert.finance/" className="frame" />
       )}
-      {show === "" && <span>Нажмите кнопку</span>}
+      {show === "" && <span>Нажмите на кнопку</span>}
     </div>
   );
 }

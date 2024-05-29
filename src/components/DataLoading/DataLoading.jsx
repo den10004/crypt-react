@@ -3,7 +3,7 @@ import DataCard from "./DataCard";
 
 function DataLoading() {
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <div className="block">
       <h2>Список сайтов</h2>
 
       <ul className="dataList">

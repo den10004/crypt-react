@@ -1,8 +1,13 @@
-# React + Vite
+# React + Vite приложение
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Релизовано
 
-Currently, two official plugins are available:
+1. Подключение кошелька Metamask к сайту и отображение его адреса
+2. Textarea блок, куда можно ввести текст и по кнопке получить sha256 от введенного текста
+3. Док панель, со списком приложений/сайтов, по клику на которые открывается. iframe на странице вашего приложения. (сайты https://app.uniswap.org/, https://app.1inch.io/, bugs.denet.pro, revert.finance, можете добавить что-то свое)
+4. Блок-утилита - textarea - вводимый текст шифруется алгоритмом aes по свободному или заданному ключу
+5. Блок-утилита - textarea - вводимый текст расшифровывается aes по свободному или заданному ключу
+6. Подгрузка списка приложений для док панели из .json файла (можете сделать его статичным в свободном формате)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Деплой
+[Vercel](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)

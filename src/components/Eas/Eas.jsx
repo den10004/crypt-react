@@ -30,12 +30,27 @@ function Eas() {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <h2>Шифрование/расшифрование алгоритмом aes</h2>
-      <textarea onChange={AesChange} type="text"></textarea>
-      <button onClick={encryptFun} style={{ margin: "20px 0 20px 0" }}>
-        получить Eas
-      </button>
-      <span>Зашифровка:{encrypt}</span>
-      <span>Расшифровка: {decrypt}</span>
+      <textarea
+        onChange={AesChange}
+        type="text"
+        style={{ marginBottom: "20px" }}
+        placeholder="Введите значение поля"
+      ></textarea>
+      <button onClick={encryptFun}>получить Eas</button>
+      <div style={{ marginTop: "20px" }}>
+        <div>
+          <span>
+            <b>Зашифровка: </b>
+            {encrypt}
+          </span>
+        </div>
+        <div>
+          <span>
+            <b>Расшифровка: </b>
+            {decrypt}
+          </span>
+        </div>
+      </div>
     </div>
   );
 }

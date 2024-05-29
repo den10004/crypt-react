@@ -15,14 +15,18 @@ function Sha256() {
   }
 
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>
+    <>
       <h2>Получение sha256</h2>
       <div className="wrapperHash">
-        <textarea onChange={inputChange} type="text"></textarea>
+        <textarea
+          onChange={inputChange}
+          type="text"
+          placeholder="Введите значение поля"
+        ></textarea>
         <button onClick={hashSum}>получить sha256 </button>
-        <input defaultValue={hashValue} type="text" />
+        {hashValue && <input defaultValue={hashValue} type="text" readOnly />}
       </div>
-    </div>
+    </>
   );
 }
 
