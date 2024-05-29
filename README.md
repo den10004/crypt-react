@@ -10,4 +10,4 @@
 6. Подгрузка списка приложений для док панели из .json файла (можете сделать его статичным в свободном формате)
 
 Деплой
-[Vercel](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+[Vercel](https://crypt-react-pi.vercel.app/)
